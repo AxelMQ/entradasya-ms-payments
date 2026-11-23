@@ -1,0 +1,27 @@
+# Entorno y secretos locales
+.env
+.env.local
+.env.*.local
+
+# Logs y reportes CI locales
+*.log
+logs/
+artifact-out/
+reports/
+trivy-report.*
+
+# Sistema operativo e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+ms-*-bin
